@@ -180,6 +180,39 @@
         }
       },
       {
+        "HashCode": 785747305,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.EmployeePageCard",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeePageCard"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.EmployeePageCard"
+        }
+      },
+      {
+        "HashCode": -1078950496,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.EmployeePageCard",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UTS.Pages.EmployeePageCard"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.EmployeePageCard",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -750717211,
         "Kind": "Components.Component",
         "Name": "UTS.Pages.Counter",
@@ -13238,6 +13271,11 @@
     {
       "FilePath": "d:\\Kuliah\\Semester\\Semester 5\\Visual Studio Code\\Pemrogramman Frontend\\UTS\\Pages\\DetailEmployee.razor",
       "TargetPath": "Pages\\DetailEmployee.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Kuliah\\Semester\\Semester 5\\Visual Studio Code\\Pemrogramman Frontend\\UTS\\Pages\\EmployeePageCard.razor",
+      "TargetPath": "Pages\\EmployeePageCard.razor",
       "FileKind": "component"
     }
   ],
