@@ -24,5 +24,20 @@ namespace UTS.Services
             var result = await _httpClient.GetFromJsonAsync<Employee>($"/api/Employees/{id}");
             return result;
         }
+
+        public Task<Employee> Add(Employee employee)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task<Employee> Update(int id, Employee employee)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task Delete(int id)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

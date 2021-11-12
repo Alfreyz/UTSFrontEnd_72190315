@@ -147,6 +147,59 @@
         }
       },
       {
+        "HashCode": 892813241,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.DetailEmployeeCard",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DetailEmployeeCard"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.DetailEmployeeCard"
+        }
+      },
+      {
+        "HashCode": 867049854,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.DetailEmployeeCard",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UTS.Pages.DetailEmployeeCard"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.DetailEmployeeCard",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 2080686347,
         "Kind": "Components.Component",
         "Name": "UTS.Pages.EmployeePage",
@@ -13271,6 +13324,11 @@
     {
       "FilePath": "d:\\Kuliah\\Semester\\Semester 5\\Visual Studio Code\\Pemrogramman Frontend\\UTS\\Pages\\DetailEmployee.razor",
       "TargetPath": "Pages\\DetailEmployee.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Kuliah\\Semester\\Semester 5\\Visual Studio Code\\Pemrogramman Frontend\\UTS\\Pages\\DetailEmployeeCard.razor",
+      "TargetPath": "Pages\\DetailEmployeeCard.razor",
       "FileKind": "component"
     },
     {

@@ -9,5 +9,8 @@ namespace UTS.Services
         Task<IEnumerable<Employee>> GetEmployees();
         Task<Employee> GetEmployee(int id);
         
+        Task<Employee> Add(Employee employee);
+        Task<Employee> Update(int id, Employee employee);
+        Task Delete(int id);
     }
 }

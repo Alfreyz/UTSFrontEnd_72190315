@@ -10,9 +10,9 @@ namespace UTS.Models
         public string Email { get; set; }
         public DateTime DateOfBirth { get; set; }
         public Gender Gender { get; set; }
-        public string PhotoPath { get; set; }
         public int DepartmentId { get; set; }
         public Department DepartmentName { get; set; }
+        public string PhotoPath { get; set; }
 
     }
     public enum Gender{
