@@ -3,6 +3,8 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net.Http.Json;
 using UTS.Models;
+using System.Text.Json;
+using System;
 
 namespace UTS.Services
 {
@@ -30,9 +32,14 @@ namespace UTS.Services
             throw new System.NotImplementedException();
         }
 
-        public Task<Employee> Update(int id, Employee employee)
+        public async Task<Employee> Update(int id, Employee employee)
         {
-            throw new System.NotImplementedException();
+            var response = await _httpClient.PutAsJsonAsync($"/api/Employees/{id}",employee);
+            if(response.IsSuccessStatusCode){
+                return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
+            }else{
+                throw new Exception("gagal Update Employee");
+            }
         }
 
         public Task Delete(int id)

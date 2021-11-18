@@ -12,7 +12,7 @@ namespace UTS.Pages
         public string id { get; set; }
         public Employee Employee { get; set; } = new Employee();
         [Inject]
-        public IDemployeeService EmployeeService { get; set; }
+        public IEmployeeServiceCard EmployeeService { get; set; }
         public string Coordinates {get; set;}
         protected void Mouse_Move(MouseEventArgs e){
             Coordinates = $"X = {e.ClientX}, Y = {e.ClientY}";
@@ -33,7 +33,7 @@ namespace UTS.Pages
         protected override async Task OnInitializedAsync()
         {
             id = id ?? "1";
-            Employee = await EmployeeService.GetById(int.Parse(id));
+            Employee = await EmployeeService.GetEmployee(int.Parse(id));
         }
     }
 }

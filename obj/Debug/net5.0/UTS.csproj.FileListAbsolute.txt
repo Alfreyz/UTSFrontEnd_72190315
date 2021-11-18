@@ -642,3 +642,5 @@ D:\Kuliah\Semester\Semester 5\Visual Studio Code\Pemrogramman Frontend\UTS\obj\D
 D:\Kuliah\Semester\Semester 5\Visual Studio Code\Pemrogramman Frontend\UTS\obj\Debug\net5.0\Razor\Pages\EmployeePageCard.razor.g.cs
 D:\Kuliah\Semester\Semester 5\Visual Studio Code\Pemrogramman Frontend\UTS\obj\Debug\net5.0\RazorDeclaration\Pages\DetailEmployeeCard.razor.g.cs
 D:\Kuliah\Semester\Semester 5\Visual Studio Code\Pemrogramman Frontend\UTS\obj\Debug\net5.0\Razor\Pages\DetailEmployeeCard.razor.g.cs
+D:\Kuliah\Semester\Semester 5\Visual Studio Code\Pemrogramman Frontend\UTS\obj\Debug\net5.0\RazorDeclaration\Pages\EditEmployee.razor.g.cs
+D:\Kuliah\Semester\Semester 5\Visual Studio Code\Pemrogramman Frontend\UTS\obj\Debug\net5.0\Razor\Pages\EditEmployee.razor.g.cs

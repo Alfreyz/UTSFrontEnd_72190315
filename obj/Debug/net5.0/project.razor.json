@@ -200,6 +200,59 @@
         }
       },
       {
+        "HashCode": -1097068997,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.EditEmployee",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.EditEmployee"
+        }
+      },
+      {
+        "HashCode": -424594184,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.EditEmployee",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UTS.Pages.EditEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.EditEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 2080686347,
         "Kind": "Components.Component",
         "Name": "UTS.Pages.EmployeePage",
@@ -451,39 +504,6 @@
         }
       },
       {
-        "HashCode": 810578636,
-        "Kind": "Components.Component",
-        "Name": "UTS.Shared.NavMenu",
-        "AssemblyName": "UTS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -2073392922,
-        "Kind": "Components.Component",
-        "Name": "UTS.Shared.NavMenu",
-        "AssemblyName": "UTS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "UTS.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UTS.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -779626037,
         "Kind": "Components.Component",
         "Name": "UTS.Shared.MainLayout",
@@ -576,6 +596,39 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "UTS.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 810578636,
+        "Kind": "Components.Component",
+        "Name": "UTS.Shared.NavMenu",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -2073392922,
+        "Kind": "Components.Component",
+        "Name": "UTS.Shared.NavMenu",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UTS.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13274,6 +13327,11 @@
     {
       "FilePath": "d:\\Kuliah\\Semester\\Semester 5\\Visual Studio Code\\Pemrogramman Frontend\\UTS\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Kuliah\\Semester\\Semester 5\\Visual Studio Code\\Pemrogramman Frontend\\UTS\\Pages\\EditEmployee.razor",
+      "TargetPath": "Pages\\EditEmployee.razor",
       "FileKind": "component"
     },
     {
