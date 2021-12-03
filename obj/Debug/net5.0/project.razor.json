@@ -8,6 +8,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 612307619,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.AddEmployee",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.AddEmployee"
+        }
+      },
+      {
+        "HashCode": 1026561700,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.AddEmployee",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UTS.Pages.AddEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.AddEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1491421309,
         "Kind": "Components.Component",
         "Name": "UTS.Pages.DepartmentPage",
@@ -13342,6 +13375,11 @@
     {
       "FilePath": "d:\\Kuliah\\Semester\\Semester 5\\Visual Studio Code\\Pemrogramman Frontend\\UTS\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Kuliah\\Semester\\Semester 5\\Visual Studio Code\\Pemrogramman Frontend\\UTS\\Pages\\AddEmployee.razor",
+      "TargetPath": "Pages\\AddEmployee.razor",
       "FileKind": "component"
     },
     {

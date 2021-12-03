@@ -27,9 +27,14 @@ namespace UTS.Services
             return result;
         }
 
-        public Task<Employee> Add(Employee employee)
+        public async Task<Employee> Add(Employee employee)
         {
-            throw new System.NotImplementedException();
+            var response = await _httpClient.PostAsJsonAsync($"/api/Employees",employee);
+            if(response.IsSuccessStatusCode){
+                return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
+            }else{
+                throw new Exception("gagal Tambah Data Employee");
+            }
         }
 
         public async Task<Employee> Update(int id, Employee employee)

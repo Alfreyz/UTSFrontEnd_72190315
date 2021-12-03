@@ -4,6 +4,7 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using UTS.Models;
 using System.Text.Json;
+using System;
 
 namespace UTS.Services
 {
@@ -32,6 +33,15 @@ namespace UTS.Services
                 return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
             }else{
                 throw new System.Exception("gagal Update Employee");
+            }
+        }
+        public async Task<Employee> Add(Employee employee)
+        {
+            var response = await _httpClient.PostAsJsonAsync($"/api/Employees",employee);
+            if(response.IsSuccessStatusCode){
+                return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
+            }else{
+                throw new Exception("gagal Tambah Data Employee");
             }
         }
     }
